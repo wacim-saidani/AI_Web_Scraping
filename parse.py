@@ -2,7 +2,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_ollama import OllamaLLM
 from langchain_google_genai import ChatGoogleGenerativeAI
 import os
-os.environ["GOOGLE_API_KEY"] = "AIzaSyBDQSW1UHvsVoRkLbzmb_-_LD_-CZrdLx4"
+os.environ["GOOGLE_API_KEY"] = ""
 template=(
     "You are tasked with extracting specific information from the following text content: {dom_content}. "
     "Please follow these instructions carefully: \n\n"
